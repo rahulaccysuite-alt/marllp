@@ -1,0 +1,42 @@
+export const plans = [
+  {
+    name: 'Essential',
+    audience: 'For businesses looking for reliable financial organization.',
+    price: "Let's Talk",
+    period: '',
+    features: ['Bookkeeping', 'GST Filing', 'Monthly Reports', 'Email Support'],
+    cta: 'Book a Consultation',
+    featured: false,
+  },
+  {
+    name: 'Growth',
+    audience: 'For growing businesses that need broader accounting and compliance support.',
+    price: "Let's Talk",
+    period: '',
+    badge: 'MOST POPULAR',
+    features: [
+      'Everything in Essential',
+      'Tax Filing',
+      'Payroll',
+      'Financial Insights',
+      'Priority Support',
+    ],
+    cta: 'Book a Consultation',
+    featured: true,
+  },
+  {
+    name: 'Advisory',
+    audience: 'For businesses looking for deeper financial insights and strategic support.',
+    price: "Let's Talk",
+    period: '',
+    features: [
+      'Everything in Growth',
+      'CFO Advisory',
+      'Financial Planning',
+      'Business Strategy',
+      'Dedicated Advisor',
+    ],
+    cta: 'Book a Consultation',
+    featured: false,
+  },
+];
